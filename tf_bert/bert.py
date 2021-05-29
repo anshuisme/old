@@ -9,8 +9,8 @@ from .transformer import get_encoders
 from .transformer import get_custom_objects as get_encoder_custom_objects
 from .layers import (get_inputs, get_embedding,
                      TokenEmbedding, EmbeddingSimilarity, Masked, Extract)
-from .keras_multi_head import MultiHeadAttention
-from .keras_position_wise_feed_forward import FeedForward
+from .multi_head import MultiHeadAttention
+from .position_wise_feed_forward import FeedForward
 
 
 __all__ = [
