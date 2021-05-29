@@ -28,7 +28,7 @@ As a group of friends with diverse backgrounds ranging from broke undergrads to 
 - Network heads for mapping question and answer embeddings to metric space, made with a Keras.Model feedforward network
 - Over a terabyte of TFRECORDS, CSV, and CKPT data
 
-If you're interested in the whole story of how we built *Doc Product* and the details of our architecture, [take a look at our GitHub README](https://github.com/Santosh-Gupta/DocProduct)!
+If you're interested in the whole story of how we built *Doc Product* and the details of our architecture, [take a look at our GitHub README](https://github.com/Santosh-Gupta/voctor)!
 
 ## Challenges
 
@@ -58,7 +58,7 @@ You can install *Doc Product* directly from pip and run it on your local machine
 
 !pip install tensorflow-gpu==2.0.0-alpha0
 import tensorflow as tf
-!pip install https://github.com/Santosh-Gupta/DocProduct/archive/master.zip
+!pip install https://github.com/Santosh-Gupta/voctor/archive/master.zip
 ```
  
 Our repo contains scripts for generating **.tfrefords** data, training *Doc Product* on your own Q&A data, and running *Doc Product* to get answers for medical questions. Please see the **Google Colaboratory demos** section below for code samples to load data/weights and run our models.

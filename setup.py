@@ -12,9 +12,9 @@ with codecs.open('requirements.txt', 'r', 'utf8') as reader:
 
 setup(
     name='voctor',
-    version='0.2.0',
+    version='2.0',
     packages=find_packages(),
-    url='https://github.com/technocrats/voctorv',
+    #url='https://github.com/technocrats/voctor',
     license='MIT',
     author='Technocrats',
     author_email='shivanshuman021@gmail.com',
